@@ -1,0 +1,78 @@
+.seat {
+    margin-top: 10px;
+
+}
+
+.occupied {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.selected {
+    background-color: green;
+    color: white;
+}
+
+.legend {
+    margin-right: 5px;
+    min-width: 200px;
+}
+
+.ticketInput {
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    max-width: 50px;
+    min-height: 35px;
+    font-size: 35px;
+}
+
+.bookSeatsButton {
+    margin: 10px auto 20px auto;
+    background-color: #646cffaa;
+}
+
+.ticketInputsContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.screen-container {
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;background-color: white;
+    height: 300px;
+    width: 600px;
+    clip-path: polygon(0 0, 100% 0, 70% 30%, 30% 30%);
+    margin: 0 auto;
+    position: relative;
+    transform: rotate(180deg);
+    margin-bottom: 50px;
+  }
+  
+  .screen-text {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    transform: rotate(180deg);
+  }
+
+  .loader {
+    border: 8px solid #ffffff; 
+    border-top: 8px solid #646cffaa; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
